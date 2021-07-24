@@ -1,0 +1,15 @@
+{
+  "name": "homework27hasmikdavtyan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "homework1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "formidable": "^1.2.2",
+    "mongoose": "^5.11.8"
+  }
+}

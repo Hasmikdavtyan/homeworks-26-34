@@ -1,0 +1,14 @@
+<%- include('header.ejs') %> 
+ <h1> <%= data.name  %>   </h1>
+ <h4> <%= data.email  %>   </h4>
+ <ol>
+ <% data.languages.forEach(element => { %>
+    
+   <li>   <%=  element   %> </li>
+ <%}); %> 
+</ol>
+<%- include('foother.ejs') %> 
+
+</body>
+</html>
+

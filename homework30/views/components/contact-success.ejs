@@ -1,0 +1,14 @@
+<%- include('header.ejs') %> 
+
+<div style ='margin-left:45%'>  
+<%  for (let key in data) { %>
+  <h3>  <%= ` ${key}:  ${ data[key] } `%> </h3>
+
+<%} %> 
+</div>
+ 
+<%- include('foother.ejs') %> 
+
+</body>
+</html>
+
